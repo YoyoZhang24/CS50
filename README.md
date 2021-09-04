@@ -7,7 +7,7 @@ Verified by `check50` and `style50`.
 <br/>
 
 ## Week 0: Scratch
-- Scratch
+- [Scratch](https://scratch.mit.edu/projects/501435320/)
 
 <br/>
 
