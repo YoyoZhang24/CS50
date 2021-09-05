@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <h4>A share of {{value["name"]}} ({{value["symbol"]}}) costs {{value["price"] | usd}}.</h4>
+{% endblock %}

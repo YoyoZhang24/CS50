@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped" style="text-align: left">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- TODO: Loop through the database entries to display them in this table -->
+            {% for transaction in transactions %}
+            <tr>
+                <td>{{transaction.symbol}}</td>
+                <td>{{transaction.name}}</td>
+                <td>{{transaction.shares}}</td>
+                <td>{{transaction.price | usd}}</td>
+                <td>{{transaction.total | usd}}</td>
+            </tr>
+            {% endfor %}
+            <!-- TODO: Display cash amount -->
+            <tr>
+                <td colspan="4">CASH</td>
+                <td>{{cash.cash | usd}}</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"></td>
+                <td>{{total_cash | usd}}</td>
+            </tr>
+        </tfoot>
+    </table>
+{% endblock %}
