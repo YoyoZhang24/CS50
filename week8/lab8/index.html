@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+        <script>
+
+            // TODO: Add code to check answers to questions
+
+            // Buttons
+            function yes(_this){
+                let output = document.getElementById("output");
+                _this.style.backgroundColor = 'green';
+                output.innerHTML = "Correct!";
+                output.style.color = 'green';
+            }
+            function no(_this){
+                let output = document.getElementById("output");
+                _this.style.backgroundColor = 'red';
+                output.innerHTML = "Incorrect";
+                output.style.color = 'red';
+            }
+
+            // Free Response
+            function check(){
+                var textbox = document.getElementById("answer");
+                var answer = document.getElementById("answer").value;
+                var output2 = document.getElementById("output2");
+                var right_answer = 'Barbara Millicent Roberts';
+
+                if (answer === right_answer){
+                    textbox.style.backgroundColor = 'green';
+                    output2.innerHTML = "Correct!";
+                    output2.style.color = 'green';
+                }
+                else{
+                    textbox.style.backgroundColor = 'red';
+                    output2.innerHTML = "Incorrect!";
+                    output2.style.color = 'red';
+                }
+            };
+
+        </script>
+
+
+    </head>
+    <body>
+
+        <div class="jumbotron">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is the national animal of Pakistan?</h3>
+
+                <form>
+                    <input id='hide'>
+                    <button onclick='no(this)'>Bharal</button>
+                    <button onclick='no(this)'>Marmot</button>
+                    <button onclick='no(this)'>Lahore Pigeon</button>
+                    <button onclick='yes(this)'>Markhor</button>
+                    <button onclick='no(this)'>Jackal</button>
+                </form>
+
+                <!-- Output -->
+                <h3 id = "output"></h3>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+
+                <!-- TODO: Add free response question here -->
+                <h3>What is Barbie's full name?</h3>
+                <form>
+                    <input type="text" id="answer" autocomplete="off">
+                    <button onclick='check()'>Check Answer</button>
+                </form>
+                <h3 id = "output2"></h3>
+
+            </div>
+
+        </div>
+    </body>
+</html>
