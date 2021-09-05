@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: The running times between the sorted and unsorted lists are drastically different. 
+
+sort2 uses: merge sort
+
+How do you know?: There is not a big difference in running time between the sorted and unsorted lists. However, both are still drastically smaller than the running time of sort3. 
+
+sort3 uses: selection sort
+
+How do you know?: There is not a big difference in running time between the sorted and unsorted lists. However, both are still drastically larger than the running time of sort2.  
