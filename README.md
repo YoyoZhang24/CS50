@@ -13,80 +13,80 @@ Verified by `check50` and `style50`.
 
 ## Week 1: C
 #### Lab 1
-- Hello
-- Population
+- [Hello](week1/lab1/hello)
+- [Population](week1/lab1/population)
 #### Pset 1
-- Mario *(more comfortable)*
-- Credit
+- [Mario](week1/pset1/mario) *(more comfortable)*
+- [Credit](week1/pset1/credit)
 
 <br/>
 
 ## Week 2: Arrays
 #### Lab 2
-- Scrabble
+- [Scrabble](week2/lab2/scrabble)
 #### Pset 2
-- Readability
-- Substitution
+- [Readability](week2/pset2/readability)
+- [Substitution](week2/pset2/substitution)
 
 <br/>
 
 ## Week 3: Algorithms
 #### Lab 3
-- Sort
+- [Sort](week3/lab3)
 #### Pset 3
-- Plurality
-- Tideman
+- [Plurality](week3/pset3/plurality)
+- [Tideman](week3/pset3/tideman)
 
 <br/>
 
 ## Week 4: Memory
 #### Lab 4
-- Volume
+- [Volume](week4/lab4)
 #### Pset 4
-- Filter *(more comfortable)
-- Recover
+- [Filter](week4/pset4/filter) *(more comfortable)*
+- [Recover](week4/pset4/recover)
 
 <br/>
 
 ## Week 5: Data Structures
 #### Lab 5
-- Inheritance
+- [Inheritance](week5/lab5)
 #### Pset 5
-- Speller
+- [Speller](week5/pset5/speller)
 
 <br/>
 
 ## Week 6: Python
 #### Lab 6
-- World Cup
+- [World Cup](week6/lab6)
 #### Pset 6
-- Hello
-- Mario *(more comfortable)
-- Credit
-- Readability
-- DNA
+- [Hello](week6/pset6/hello)
+- [Mario](weel6/pset6/mario) *(more comfortable)*
+- [Credit](week6/pset6/credit)
+- [Readability](week6/pset6/readability)
+- [DNA](week6/pset6/dna)
 
 <br/>
 
 ## Week 7: SQL
 #### Lab 7
-- Songs
+- [Songs](week7/lab7)
 #### Pset 7
-- Movies
-- Fiftyville
+- [Movies](week7/pset7/movies)
+- [Fiftyville](week7/pset7/fiftyville)
 
 <br/>
 
 ## Week 8: HTML, CSS, JavaScript
 #### Lab 8
-- Trivia
+- [Trivia](week8/lab8)
 #### Pset 8
-- Homepage
+- [Homepage](week8/pset8)
 
 <br/>
 
 ## Week 9: Flask
 #### Lab 9
-- Birthdays
+- [Birthdays](week9/lab9)
 #### Pset 9
-- Finance
+- [Finance](week9/pset9/finance)
