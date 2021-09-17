@@ -90,3 +90,8 @@ Verified by `check50` and `style50`.
 - [Birthdays](week9/lab9)
 #### Pset 9
 - [Finance](week9/pset9/finance)
+
+<br/>
+
+## Week 10: Ethics
+- [Final Project](https://github.com/YoyoZhang24/RelaX50)
